@@ -1,0 +1,55 @@
+*{
+    /*border: dotted 1px grey;*/
+    margin: 10px;
+    align-self: center;
+}
+body {
+    margin: 0px;
+    padding: 30px;
+    font-family: Arial;
+
+}
+
+form{
+    display: grid;
+    grid-template-columns: 20% 30% 10% 40%;
+}
+h1{
+    grid-column: 1/5;
+}
+.eten{
+    display: flex;
+    grid-column: 4/5;
+}
+
+input.textinput{
+    width: 150px;
+    border: solid 1px cornflowerblue;
+}
+div#wrapper{
+    padding: 20px;
+    margin: auto;
+    width: 1050px;
+    background: #f8e7e7;
+}
+.kleur-ogen{
+    grid-column: 1/5;
+}
+
+select{
+    width: 150px;
+}
+input.datum{
+    width: 150px;
+}
+#omschrijving{
+    width: 350px;
+    height: 200px;
+    grid-column: 2/5;
+}
+label.omschrijving{
+    grid-column: 1/2;
+}
+#knoppen{
+    grid-column: 4/5;
+}

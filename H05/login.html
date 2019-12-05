@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="loginStylesheet.css">
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+</head>
+<body>
+<div id="wrapper">
+    <header><img src="../RESOURCES/burton_logo.png"></header>
+    <form action="formtest.php" method="post">
+
+        <h1>Voorbeeldformulier</h1>
+
+        <label for="voornaam">voornaam</label>
+        <input class="textinput" type="text" name="voornaam" id="voornaam">
+
+        <label>lekker eten</label>
+        <div class="eten">
+            <input type="checkbox">
+            <label>sperziebonen</label>
+        </div>
+
+        <label for="tussenvoegsel">voornaam</label>
+        <input class="textinput" type="text" name="tussenvoegsel" id="tussenvoegsel">
+
+        <div class="eten">
+            <input type="checkbox">
+            <label>Aardappelen</label>
+        </div>
+        <label>geslacht</label>
+        <div id="geslacht">
+            <input type="radio" name="geslacht" value="m">
+            <label>man</label>
+            <input type="radio" name="geslacht" value="v">
+            <label>vrouw</label>
+        </div>
+        <div class="eten">
+            <input type="checkbox">
+            <label>hamburger</label>
+
+        </div>
+        <label>Kleur-ogen</label>
+            <select name="kleur-ogen">
+                <option value="groen">groen</option>
+                <option value="blauw">blauw</option>
+                <option value="bruin">bruin</option>
+            </select>
+        <div></div>
+        <div></div>
+        
+        <label class="geboorte">geboortdatum</label>
+        <input type="date" class="datum">
+    
+        <Label class="omschrijving">omsvrijving</Label>
+        <textarea name="textarea" id="omschrijving" cols="50" rows="4"></textarea>
+
+        <div id="knoppen">
+            <button type="submit">Login</button>
+            <button type="reset">Reset</button>
+
+        </div>
+
+
+
+    </form>
+</div>
+</body>
+</html>

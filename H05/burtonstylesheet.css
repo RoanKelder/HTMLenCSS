@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+section.appel, section.fotos{
+    width: 50%;
+    float: left;
+}
+
+
+
+section.fotos{
+    text-align: right;
+}
+div#wrapper{
+    margin: auto;
+    width: 1050px;
+    padding: 20px;
+    background: #f8e7e7;
+
+
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+img.article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 303px;
+}
+footer{
+    background: #8d8d8f;
+    margin: auto;
+    width: 1050px;
+    padding: 15px;
+    color: white;
+
+}
+
+footer a{
+    color: white;
+}
